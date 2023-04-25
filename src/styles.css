@@ -1,0 +1,265 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  position: relative;
+}
+
+.headerMain {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  min-height: 7.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.headerButton {
+  width: 150px;
+  height: 100%;
+  border-bottom: 2px solid black;
+  display: none;
+}
+
+.headerText {
+  height: 100%;
+  line-height: 75px;
+}
+
+.login {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 100px;
+}
+
+.HeaderAccountPhoto {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 200px;
+  top: 25px;
+}
+
+.login span {
+  color: #336;
+}
+
+.AccountHeaderText {
+  position: relative;
+  left: 25px;
+}
+
+.login:hover .dropdown-menu {
+  display: block;
+  width: 100%;
+}
+
+.login:hover .logged-in {
+  height: 140px;
+}
+
+.loginEmail * {
+  position: relative;
+  bottom: 35px;
+}
+
+.dropdown-menu #profile {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.dropdown-menu #logOut {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
+
+.navBarPos {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  z-index: 999;
+}
+
+.MainContent {
+  background-color: white;
+  position: absolute;
+  left: 5%;
+  top: 200px;
+  width: 90%;
+  height: 1000px;
+}
+
+.myRecipes {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.myRecipes .row *:hover {
+  background-color: #eee;
+}
+
+.borderedHeader {
+  border-right: 2px solid black;
+}
+
+.account {
+  background-color: pink;
+}
+
+.contactInput label {
+  position: relative;
+  right: calc(50% - 30px);
+}
+
+.contactComment label {
+  position: relative;
+  right: calc(50% - 45px);
+}
+
+.contactComment textarea {
+  resize: none;
+}
+
+.Contact * input[type="submit"] {
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  top: 250px;
+  left: calc(50% - 50px);
+}
+
+.createRecipePhoto {
+  width: 175px;
+  height: 200px;
+  border: 3px dashed #bbb;
+  color: #aaa;
+  position: relative;
+  line-height: 200px;
+}
+
+.RecipeName {
+  width: calc(100% - 200px);
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  text-align: left;
+}
+
+.Servings {
+  position: absolute;
+  left: 200px;
+  top: 70px;
+}
+
+.PrepTime {
+  position: absolute;
+  left: 200px;
+  top: 140px;
+  text-align: left;
+}
+
+#PrepTime {
+  width: 100px;
+}
+
+.CookTime {
+  position: absolute;
+  left: 325px;
+  top: 140px;
+  text-align: left;
+}
+
+#CookTime {
+  width: 100px;
+}
+
+.Ingredients {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 210px;
+  text-align: left;
+}
+
+#Ingredients {
+  resize: none;
+  width: 100%;
+}
+
+.Directions {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 380px;
+  text-align: left;
+}
+
+#Directions {
+  resize: none;
+  width: 100%;
+}
+
+.CreateRecipeForm button[type="submit"] {
+  position: absolute;
+  top: 555px;
+}
+
+.AccountPicture {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 10px;
+}
+
+.CreateAccountForm {
+  width: 100%;
+  background-color: #66f;
+}
+
+.CreateAccountInput {
+  width: calc(100% - 200px);
+  position: absolute;
+  left: 200px;
+  text-align: left;
+  color: #444;
+}
+
+.AccountName {
+  top: 10px;
+}
+
+.AccountEmail {
+  top: 85px;
+}
+
+.AccountPassword {
+  top: 160px;
+}
+
+.AccountVerifyPassword {
+  top: 235px;
+}
+
+.MealPlanTable {
+  width: 75%;
+}
+
+.MealPlanSearch {
+  width: 20%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: blue;
+}

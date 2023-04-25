@@ -1,0 +1,95 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.header {
+  height: 150px;
+  position: relative;
+}
+
+.headerMain {
+  background-color: rgb(255, 247, 138);
+  width: 100%;
+  height: 100px;
+  min-height: 7.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.headerButton {
+  width: 150px;
+  height: 100%;
+  border-bottom: 2px solid black;
+  display: none;
+}
+
+.headerText {
+  height: 100%;
+  line-height: 75px;
+}
+
+.login {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: aqua;
+  line-height: 100px;
+}
+
+.login:hover .dropdown-menu {
+  display: block;
+  width: 100%;
+}
+
+.login .dropdown-menu Button[type="submit"] {
+  position: absolute;
+  left: 5%;
+}
+
+.login .dropdown-menu #profile {
+  top: 20px;
+}
+
+.login .dropdown-menu #logOut {
+  top: 60px;
+}
+
+.navBarPos {
+  position: sticky;
+  left: 0;
+  top: 100px;
+  width: 100%;
+}
+
+.MainContent {
+  background-color: royalblue;
+  position: absolute;
+  left: 5%;
+  top: 200px;
+  width: 75%;
+  height: 1000px;
+}
+
+.myRecipes {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+.myRecipes .row *:hover {
+  background-color: #eee;
+}
+
+.borderedHeader {
+  border-right: 2px solid black;
+}
+
+.account {
+  background-color: pink;
+}
